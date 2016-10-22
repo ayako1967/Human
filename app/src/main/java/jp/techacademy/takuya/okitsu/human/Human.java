@@ -7,9 +7,9 @@ import android.util.Log;
 
 public class Human extends Animal implements Thinkable {
 
-    String name;
-    int age;
-    String hobby;
+     String name;
+     int age;
+     String hobby;
 
     public Human() {
         name = "";
@@ -19,9 +19,10 @@ public class Human extends Animal implements Thinkable {
 
 
 
-    public Human(String name,int age) {
+    public Human(String name,int age,String hobby) {
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
 
     }
     public void say() {

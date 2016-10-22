@@ -5,5 +5,6 @@ package jp.techacademy.takuya.okitsu.human;
  */
 
 public interface Thinkable {
+
     public void think();
 }

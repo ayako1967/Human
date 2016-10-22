@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Human human = new Human("太郎",15);
 
         human.say();
-        Log.d("私の名前は" + human.name + "です。歳は" + human.age +"です。");
+        human.think();
 
 
     }
